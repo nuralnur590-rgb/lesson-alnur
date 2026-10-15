@@ -94,7 +94,7 @@ function ForgotPasswordScreen({ onNavigate }: { onNavigate: (screen: string) => 
 
       <TextInput
         style={styles.input}
-        placeholder="+7 (700) 555-77-55"
+        placeholder="+7 (775) 971-14-39"
         placeholderTextColor="#999"
         value={phone}
         onChangeText={setPhone}
@@ -118,7 +118,7 @@ function VerifyCodeScreen({ onNavigate }: { onNavigate: (screen: string) => void
 
       <Text style={styles.title}>Подтвердить номер</Text>
       <Text style={styles.subtitle}>
-        Код отправлен на номер +7 (700) 555-77-55
+        Код отправлен на номер +7 (775) 971-14-39
       </Text>
 
       <View style={styles.codeRow}>
